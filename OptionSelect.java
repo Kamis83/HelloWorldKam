@@ -12,9 +12,10 @@ public class OptionSelect extends Games {
         listOfThingsCanDo.showThingsCanDo();
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println(" Firstly choose how many games you want to play");
+        System.out.println("");
+        System.out.println(" Firstly choose how many things you want to do with your sentence");
         int numberOfTries = scanner.nextInt();
-        System.out.println("Secoundly choose which off the game listed before are you interested in. Press from 1 to 3" + "");
+        System.out.println("Secondly choose which options you want to do with sentence. Press from 1 to 4" + "");
 
         for (int i = 0; i < numberOfTries; i++) {
             optionSelect();
@@ -36,6 +37,8 @@ public class OptionSelect extends Games {
             case 3:
                 games.showSeparateLetters();
                 break;
+            case 4:
+                games.numberOfSomeLetter();
         }
     }
 }

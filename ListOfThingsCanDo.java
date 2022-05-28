@@ -7,6 +7,7 @@ public class ListOfThingsCanDo {
         thingsCanDo.put(1, "If you want to check the length of the sentence.");
         thingsCanDo.put(2, "If you want to check number of words in a sentence.");
         thingsCanDo.put(3, "if you want to know what kind of separate letters are in your sentence.");
+        thingsCanDo.put(4, "if you want to know what how many times the letters you've entred appears in a sentence ");
 
         System.out.println("Below you'll see the gamelist");
         System.out.println(" ");
